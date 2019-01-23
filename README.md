@@ -4,6 +4,10 @@ automatic login to public wifi
 
 use python and mechanize.
 
-to different version of python scripts to meet mechanize API changes 
+sudo pip install mechanize
 
-bases on the work of Fahad Alduraibi
+
+
+two different versions of python scripts to meet mechanize API changes 
+
+based on the work of Fahad Alduraibi
