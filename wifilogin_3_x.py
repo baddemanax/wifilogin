@@ -18,10 +18,10 @@ br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; Linux x86_64; rv:13.0) Gecko/20100101 Firefox/13.0')]
 
-testURL = 'https://guest.cis.consilium.europa.eu/guest/portal.php'
+testURL = 'https://test.html'
 response = br.open(testURL)
 print ("----------------------------")
-print (" Automatic Login to EU portal starting")
+print (" Automatic Login to  portal starting")
 if __debug__:
 
 	print ("RESPONSE TO : ",testURL)
@@ -29,7 +29,7 @@ if __debug__:
 	print ("----------------------------------")
 
 if response.geturl() == testURL:
-	print "You are already logged in to council eu."
+	print "You are already logged in to wifi."
 	sys.exit()
 
 
@@ -79,4 +79,4 @@ if __debug__:
 	print ("-----------------------------------")
 
 response.close()
-print "--- WIFI EU Login Done ---"
+print "--- WIFI  Login Done ---"
