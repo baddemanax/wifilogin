@@ -24,7 +24,7 @@ print ("response url : ")
 print response.read()
 
 if response.geturl() == testURL:
-	print "FAD: You are already logged in to council eu."
+	print "FAD: You are already logged in."
 	sys.exit()
 
 try:
